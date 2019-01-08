@@ -1,0 +1,17 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-basic-title">
+    <P>{{imagesData.id}}</P>
+  </h4>
+</div>
+<div class="modal-body">
+  <div class="slider">
+    <ngb-carousel>
+      <ng-template ngbSlide *ngFor="let img of imagesData.images">
+        <img [src]="img.href" alt="Random slide">
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+    </ngb-carousel>
+    <img>
+  </div>
+</div>

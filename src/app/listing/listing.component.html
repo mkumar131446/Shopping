@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <div class="column" *ngFor="let d of images" (click)="openpopup(d)">
+      <img [src]="d.hero.href">
+      <p class="h2">{{d.id}}</p>
+      <p class="bottom">Price:<strong> {{d.priceRange.regular.high}}</strong></p>
+    </div>
+  </div>
+</div>

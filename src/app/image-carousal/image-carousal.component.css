@@ -1,0 +1,14 @@
+.slider {
+  padding: 30px;
+}
+
+p {
+  white-space: nowrap;
+  width: 380px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+img {
+  width: 100%;
+}
